@@ -63,7 +63,7 @@ const StyledVisibleNav = styled.div`
 const StyledHiddenNav = styled.div`
 	font-family: Inconsolata Regular;
 
-	background-color: ${VIOLET};
+	background-color: ${BLUE};
 	width: 100vw;
 	display: flex;
 	justify-content: center; align-items: center;

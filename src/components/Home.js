@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 import { BLUE, VOID, VIOLET, PINK, WHITE } from '../colors';
 
@@ -11,7 +12,7 @@ export default function Home() {
 				<StyledBody>
 					<StyledHeader>
 						<StyledH1 className="page-header">[ SkidsDAO ]</StyledH1>
-						<StyledH2 className="page-subheader">The quick brown fox jumps over the lazy dog</StyledH2>
+						<StyledH2 className="page-subheader">Breaking your things since 2022.</StyledH2>
 					</StyledHeader>
 					<StyledSection>
 						<h3 className="section-header">~$ Blockchain_Security</h3>
@@ -25,6 +26,7 @@ export default function Home() {
 					</StyledSection>
 				</StyledBody>
 			</StyledMain>
+			<Footer />
 		</div>
 	);
 }

@@ -8,7 +8,7 @@ const PURPLE = "rgb(121,79,172)";
 // const VIOLET = "rgba(176,105,255,255)";
 // const BLUE = "rgba(132,168,243,255)";
 const VIOLET = "#B026FF";
-const BLUE = "#B026ff";
+const BLUE = "#B026FF";
 const WHITE = "rgb(255, 255, 255)";
 const GREY = "rgb(209,201,210)";
 
