@@ -1,0 +1,133 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(0,0,0);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* bg colors */
+
+.bg-void {
+	background-color: rgb(0,0,0);
+}
+
+.bg-black {
+	background-color: rgb(22,14,39);
+}
+
+.bg-pink {
+	background-color: rgb(215,61,206);
+}
+
+.bg-purple {
+	background-color: rgb(121,79,172);
+}
+
+.bg-violet {
+	background-color: rgb(87,59,133);
+}
+
+.bg-blue {
+	background-color: rgb(55,205,225);
+}
+
+.bg-white {
+	background-color: rgb(209,201,210);
+}
+
+.bg-grey {
+	background-color: rgb(209,201,210);
+}
+
+/* font imports */
+
+@font-face {
+	font-family: Inconsolata Regular;
+	src: url(../public/assets/fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
+
+@font-face {
+	font-family: Inconsolata Black;
+	src: url(../public/assets/fonts/Inconsolata/Inconsolata-Black.ttf);
+}
+
+@font-face {
+	font-family: Inconsolata Bold;
+	src: url(../public/assets/fonts/Inconsolata/Inconsolata-Bold.ttf);
+}
+
+
+/* font colors  */
+
+.font-void {
+	color: rgb(0,0,0);
+}
+
+.font-black {
+	color: rgb(209,201,210);
+}
+
+.font-pink {
+	color: rgb(215,61,206);
+}
+
+.font-purple {
+	color: rgb(121,79,172);
+}
+
+.font-violet {
+	color: rgb(87,59,133);
+}
+
+.font-blue {
+	color: rgb(55,205,225);
+}
+
+.font-white {
+	color: rgb(209,201,210);
+}
+
+.font-grey {
+	color: rgb(209,201,210);
+}
+
+/* font sizes */
+
+.page-header {
+	font-size: 7em;
+}
+
+.page-subheader {
+	font-size: 2em;
+}
+
+.section-header {
+	font-size: 3em;
+}
+
+.body-text {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+.secondary-text {
+	font-size: 0.5em;
+}
+
+.nav-link, .footer-link {
+	font-size: 1.3em;
+}
