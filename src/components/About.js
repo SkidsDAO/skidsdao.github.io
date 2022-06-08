@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -12,15 +11,17 @@ export default function Home() {
 			<StyledMain className="font-white">
 				<StyledBody>
 					<StyledHeader>
-						<StyledH1 className="page-header">SkidsDAO</StyledH1>
+						<StyledH1 className="page-header">About Us</StyledH1>
 						<StyledH2 className="page-subheader">Breaking your things since 2022.</StyledH2>
 					</StyledHeader>
 
 					<StyledGrid>
 						<StyledSection>
-							<h3 className="section-header">~$ About Us</h3>
-							<p className="body-text">Mauris iaculis tempor erat nec vestibulum. Aenean feugiat vitae ligula consequat consequat. Mauris gravida convallis mauris, sed placerat tortor condimentum ut. Pellentesque ipsum neque, maximus eu diam et, maximus vestibulum odio. Cras dapibus vitae justo eu sollicitudin. Donec id ipsum quis velit venenatis elementum. Fusce nisi felis, dignissim ut finibus sit amet, sollicitudin vel nibh. Vestibulum purus urna, sollicitudin ultricies vestibulum sed, lobortis in odio. </p>
-							<Link to="/about"><StyledButton className="nav-link">Read More</StyledButton></Link>
+							<h3 className="section-header">~$ Hacker and Cypherpunk</h3>
+							<p className="body-text">SkidsDAO is a hacker and cypherpunk collective with the objective of securing and improving the decentralised web. We achieve this through our work and contributions to public goods, inspiring, onboarding and mentoring security engineers and occassionally smart contract security reviews to projects we feel will have a positive effect on the ecosystem.</p>
+							<p className="body-text">We love to have fun and prefer to keep things light hearted while perpetuating perfection in all that we do. Don’t want to end up stuffy and miserable after all. ;)</p>
+							<p className="body-text">Though we cultivate a light hearted environment, it is a meritocracy nonetheless as noted by the progressions systems we have in place. As a result of these efforts, we hope to churn out some of the greatest hackers the blockchain world will ever see.</p>
+							<p className="body-text">As always, <b>we welcome all but only the 1337 have our respect</b>. We’ll be waiting until you’re ready, anon.</p>
 						</StyledSection>
 					</StyledGrid>
 				</StyledBody>
@@ -94,6 +95,11 @@ const StyledSection = styled.section`
 	p {
 		color: ${GREY};
 		font-family: Inconsolata Regular;
+	}
+
+	b {
+		color: ${VIOLET};
+		font-family: Inconsolata Bold;
 	}
 `;
 

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Helmet } from 'react-helmet'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,17 +15,17 @@ root.render(
 			<title>SkidsDAO</title>
 			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="SkidsDAO" />
-      <meta name="twitter:url" content="https://skidsdao.github.io" />
-      <meta name="twitter:description" content="Breaking your things since 2022." />
-      <meta name="twitter:image" content="/assets/skidsdao_logo.png" /> 
-
       <meta property="og:title" content="SkidsDAO" />
       <meta property="og:url" content="https://skidsdao.github.io" />
       <meta property="og:description" content="Breaking your things since 2022." />
       <meta property="og:image" content="/assets/skidsdao_logo.png" />
       <meta property="og:type" content="website" /> 
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="SkidsDAO" />
+      <meta name="twitter:url" content="https://skidsdao.github.io" />
+      <meta name="twitter:description" content="Breaking your things since 2022." />
+      <meta name="twitter:image" content="/assets/skidsdao_logo.png" /> 
 
 			<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
 			<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -47,6 +48,7 @@ root.render(
 		<BrowserRouter>
 			<Routes>
 				<Route exact path="/" element={<Home />} />
+				<Route exact path="/about" element={<About />} />
 			</Routes>
 		</BrowserRouter>
   </React.StrictMode>

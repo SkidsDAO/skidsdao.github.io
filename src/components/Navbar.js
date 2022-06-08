@@ -25,9 +25,7 @@ export default function Navbar() {
 			</StyledVisibleNav>
 			<StyledHiddenNav height={height}>
 				<StyledLink className="nav-link" to="/">Home</StyledLink>
-				<StyledLink className="nav-link" to="/">Whitepaper</StyledLink>
-				<StyledLink className="nav-link" to="/">About</StyledLink>
-				<StyledLink className="nav-link" to="/">Contact</StyledLink>
+				<StyledLink className="nav-link" to="/about">About </StyledLink>
 			</StyledHiddenNav>
 		</StyledNav>
 	);
@@ -40,7 +38,11 @@ const StyledNav = styled.nav`
 	flex-direction: column;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 0 2vw;
+	padding: 0 5vw;
+
+	@media (min-width: 768px) {
+		padding: 0 2vw;
+	}
 `;
 
 const StyledVisibleNav = styled.div`
@@ -53,6 +55,10 @@ const StyledVisibleNav = styled.div`
 
 	.nav-link {
 		color: ${VIOLET};
+		transition: color;
+		transition-duration: 0.1s;
+		transition-timing-fucntion: ease-out;
+
 		&:hover {
 			color: ${WHITE};
 			cursor: pointer;
@@ -70,8 +76,8 @@ const StyledHiddenNav = styled.div`
 	overflow: hidden;
 	height: ${props => props.height}px;
 	transition: height;
-	transition-duration 0.5s;
-	transition-timing-fucntion: ease-in-out;
+	transition-duration 0.2s;
+	transition-timing-function: ease-in-out;
 `;
 
 const StyledLogo = styled(Link)`
@@ -98,3 +104,11 @@ const StyledLink = styled(Link)`
 		text-decoration: underline;
 	}
 `;
+
+    // @media (max-width: 768px) {
+    //   font-size: 50px;
+    // }
+    //
+    // @media (max-width: 411px) {
+    //   font-size: 34px;
+    // }

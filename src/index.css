@@ -131,3 +131,17 @@ code {
 .nav-link, .footer-link {
 	font-size: 1.3em;
 }
+
+@media (max-width: 768px) {
+	.page-header {
+		font-size: 3em;
+	}
+
+	.page-subheader {
+		font-size: 1.5em;
+	}
+
+	.section-header {
+		font-size: 2em;
+	}
+}
