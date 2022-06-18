@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { VIOLET, PURPLE, VOID, BLUE, PINK, WHITE } from '../colors';
+import { VOID, VIOLET, WHITE } from '../colors';
 
 const openHeightInPx = 100;
 
@@ -69,7 +69,7 @@ const StyledVisibleNav = styled.div`
 const StyledHiddenNav = styled.div`
 	font-family: Inconsolata Regular;
 
-	background-color: ${BLUE};
+	background-color: ${VIOLET};
 	width: 100vw;
 	display: flex;
 	justify-content: center; align-items: center;
@@ -91,7 +91,7 @@ const StyledLogo = styled(Link)`
 	
 	span {
 		font-size: 1em;
-		color: ${BLUE};
+		color: ${VIOLET};
 	}
 `;
 

@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
+import MarkdownPreview from './components/MarkdownPreview';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -49,6 +50,7 @@ root.render(
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route exact path="/about" element={<About />} />
+				<Route exact path="/preview" element={<MarkdownPreview />} />
 			</Routes>
 		</BrowserRouter>
   </React.StrictMode>

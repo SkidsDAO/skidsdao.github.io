@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import { BLUE, VOID, VIOLET, GREY, WHITE } from '../colors';
+import { VOID, VIOLET, GREYVIOLET, WHITE } from '../colors';
 
 export default function Home() {
 	return (
@@ -56,7 +56,7 @@ const StyledHeader = styled.header`
 const StyledH1 = styled.h1`
 	word-wrap: break-word;
 	font-family: Inconsolata Black;
-	color: ${BLUE};
+	color: ${VIOLET};
 `;
 
 const StyledH2 = styled.h2`
@@ -67,9 +67,9 @@ const StyledH2 = styled.h2`
 const StyledButton = styled.button`
 	margin: 1em 0;
 	padding: 0.5em;
-	border: 2px solid ${BLUE};
+	border: 2px solid ${VIOLET};
 	font-family: Inconsolata Regular;
-	color: ${BLUE};
+	color: ${VIOLET};
 	text-decoration: none;
 	background: none;
 	transition: color background-color;
@@ -92,7 +92,7 @@ const StyledSection = styled.section`
 	}
 
 	p {
-		color: ${GREY};
+		color: ${GREYVIOLET};
 		font-family: Inconsolata Regular;
 	}
 `;
