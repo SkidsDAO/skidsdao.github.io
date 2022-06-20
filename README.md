@@ -7,6 +7,15 @@ The ultimate and beautiful one will come after awhile! (Stay tuned for its glory
 - Dump **ALL content images** in `/public/assets/images/`
 
 
+### Preview of Markdown Rendering
+
+Check a preview render of Markdown Styling: [Preview Render](https://skidsdao.github.io/preview)
+
+### Don't like the styling?
+
+Change CSS rules in `/src/components/Markdown.js`;
+
+
 ### How to render markdown?
 
 Check in `MarkdownPreview.js` for an example usage.
