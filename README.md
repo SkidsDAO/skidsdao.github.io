@@ -9,7 +9,7 @@ Check in `MarkdownPreview.js` for an example usage.
 
 Short example usage
 
-```
+```javascript
 
 
 // Notice the use of backticks (``)
@@ -35,7 +35,7 @@ Smaller body text over here
 
 Replicate content block in `./src/modules/content.js.` and change values as needed.
 
-```
+```javascript
 
 // Overview of content block in content.js
 
