@@ -2,6 +2,10 @@
 
 The ultimate and beautiful one will come after awhile! (Stay tuned for its glory!)
 
+### Temporary Conventions
+
+- Dump **ALL content images** in `/public/assets/images/`
+
 
 ### How to render markdown?
 
@@ -64,6 +68,3 @@ content[content.length - 1].uri = resolveUri(content[content.length - 1].title);
 ```
 
 
-### Temporary Conventions
-
-- Dump all images in `./src/assets/images/`

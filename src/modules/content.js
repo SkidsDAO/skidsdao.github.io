@@ -14,6 +14,8 @@ markdown = `#### Just some markdown over here
 
 write whatever you want to write here
 
+![Hacker doing hacker things](/assets/images/test-image.jpg)
+
 **bold you want?**
 
 *italic you want?*
