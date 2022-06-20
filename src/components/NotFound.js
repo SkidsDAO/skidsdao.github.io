@@ -5,41 +5,22 @@ import Markdown from './Markdown';
 
 import { VIOLET, GREYVIOLET, VOID, WHITE } from '../colors';
 
-export default function About() {
+export default function NotFound() {
 	return (
 		<div>
 			<Navbar />
 			<StyledMain className="font-white">
 				<StyledBody>
 					<StyledHeader>
-						<StyledH1 className="page-header">About Us</StyledH1>
-						<StyledH2 className="page-subheader">Breaking your things since 2022.</StyledH2>
+						<StyledH1 className="page-header">Not Found</StyledH1>
+						<StyledH2 className="page-subheader">Breaking 404 messages since 2022</StyledH2>
 					</StyledHeader>
-					<Markdown content={aboutContent}/>
 				</StyledBody>
 			</StyledMain>
 			<Footer />
 		</div>
 	);
 }
-
-const aboutContent = `##### Add content with Markdown
-
-Mauris iaculis tempor erat nec vestibulum. Aenean feugiat vitae ligula consequat consequat. Mauris gravida convallis mauris, sed placerat tortor condimentum ut. Pellentesque ipsum neque, maximus eu diam et, maximus vestibulum odio. Cras dapibus vitae justo eu sollicitudin. Donec id ipsum quis velit venenatis elementum. Fusce nisi felis, dignissim ut finibus sit amet, sollicitudin vel nibh. Vestibulum purus urna, sollicitudin ultricies vestibulum sed, lobortis in odio. 
-
-### However you like it
-
-Even with code like the one below
-
-\`\`\`
-use std::io::*;
-
-fn main() {
-	println!("Chicho the best");
-}
-\`\`\`
-
-`;
 
 const StyledMain = styled.main`
 	display: flex;

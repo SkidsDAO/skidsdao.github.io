@@ -25,7 +25,8 @@ export default function Navbar() {
 			</StyledVisibleNav>
 			<StyledHiddenNav height={height}>
 				<StyledLink className="nav-link" to="/">Home</StyledLink>
-				<StyledLink className="nav-link" to="/about">About </StyledLink>
+				<StyledLink className="nav-link" to="/about">About</StyledLink>
+				<StyledLink className="nav-link" to="/blog">Blog</StyledLink>
 			</StyledHiddenNav>
 		</StyledNav>
 	);

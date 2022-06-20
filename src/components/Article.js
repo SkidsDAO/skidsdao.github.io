@@ -1,45 +1,31 @@
 import styled from 'styled-components';
+import { useParams } from 'react-router-dom';
+
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Markdown from './Markdown';
+import { content } from '../modules/content';
 
 import { VIOLET, GREYVIOLET, VOID, WHITE } from '../colors';
 
-export default function About() {
+export default function Article() {
+	const { id } = useParams();
 	return (
 		<div>
 			<Navbar />
 			<StyledMain className="font-white">
 				<StyledBody>
 					<StyledHeader>
-						<StyledH1 className="page-header">About Us</StyledH1>
-						<StyledH2 className="page-subheader">Breaking your things since 2022.</StyledH2>
+						<StyledH1 className="page-header">{ content[id].title }</StyledH1>
+						<StyledH2 className="page-subheader">{ content[id].subtitle }</StyledH2>
 					</StyledHeader>
-					<Markdown content={aboutContent}/>
+					<Markdown content={content[id].content} />
 				</StyledBody>
 			</StyledMain>
 			<Footer />
 		</div>
 	);
 }
-
-const aboutContent = `##### Add content with Markdown
-
-Mauris iaculis tempor erat nec vestibulum. Aenean feugiat vitae ligula consequat consequat. Mauris gravida convallis mauris, sed placerat tortor condimentum ut. Pellentesque ipsum neque, maximus eu diam et, maximus vestibulum odio. Cras dapibus vitae justo eu sollicitudin. Donec id ipsum quis velit venenatis elementum. Fusce nisi felis, dignissim ut finibus sit amet, sollicitudin vel nibh. Vestibulum purus urna, sollicitudin ultricies vestibulum sed, lobortis in odio. 
-
-### However you like it
-
-Even with code like the one below
-
-\`\`\`
-use std::io::*;
-
-fn main() {
-	println!("Chicho the best");
-}
-\`\`\`
-
-`;
 
 const StyledMain = styled.main`
 	display: flex;

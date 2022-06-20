@@ -13,6 +13,9 @@ export default function Markdown({ content }) {
 	);
 }
 
+
+// Markdown styling over here
+// Change as needed
 const StyledMarkdownWrapper = styled.main`
   img {
     overflow: hidden;

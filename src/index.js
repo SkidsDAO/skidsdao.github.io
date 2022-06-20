@@ -8,6 +8,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import MarkdownPreview from './components/MarkdownPreview';
+import Blog from './components/Blog';
+import Article from './components/Article';
+import NotFound from './components/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,6 +54,9 @@ root.render(
 				<Route exact path="/" element={<Home />} />
 				<Route exact path="/about" element={<About />} />
 				<Route exact path="/preview" element={<MarkdownPreview />} />
+				<Route exact path="/blog" element={<Blog />} />
+				<Route exact path="/blog/:id/:uri" element={<Article />} />
+				<Route exact path="*" element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>
   </React.StrictMode>

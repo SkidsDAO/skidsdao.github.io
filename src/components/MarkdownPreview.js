@@ -36,6 +36,13 @@ Body text
 
 *Italic body text*
 
+This is how links look like: [Click here buddy](https://skidsdao.github.io/)
+
+##### test image below
+
+![Hacker doing hacker things]("../assets/images/test-image.jpg")
+
+
 \`\`\`c
 #include <stdio.h>
 
