@@ -23,19 +23,27 @@ export default function About() {
 	);
 }
 
-const aboutContent = `##### Add content with Markdown
+const aboutContent = `##### The SkidsDAO Mission
 
-Mauris iaculis tempor erat nec vestibulum. Aenean feugiat vitae ligula consequat consequat. Mauris gravida convallis mauris, sed placerat tortor condimentum ut. Pellentesque ipsum neque, maximus eu diam et, maximus vestibulum odio. Cras dapibus vitae justo eu sollicitudin. Donec id ipsum quis velit venenatis elementum. Fusce nisi felis, dignissim ut finibus sit amet, sollicitudin vel nibh. Vestibulum purus urna, sollicitudin ultricies vestibulum sed, lobortis in odio. 
+SkidsDAO is a hacker and cypherpunk collective with the objective of securing and improving the decentralised web. We achieve this through our work and contributions to public goods, inspiring, onboarding and mentoring security engineers and occassionally smart contract security reviews to projects we feel will have a positive effect on the ecosystem.
 
-### However you like it
+We love to have fun and prefer to keep things light hearted while perpetuating perfection in all that we do. Don’t want to end up stuffy and miserable after all. ;)
 
-Even with code like the one below
+Though we cultivate a light hearted environment, it is a meritocracy nonetheless as noted by the progressions systems we have in place. As a result of these efforts, we hope to churn out some of the greatest hackers the blockchain world will ever see.
+
+As always, we welcome all but only the 1337 have our respect. We’ll be waiting until you’re ready, anon. 
+
+### Secure Smart contratcs
+
+Attention to detail.
 
 \`\`\`
-use std::io::*;
+pragma solidity 0.8.15;
 
-fn main() {
-	println!("Chicho the best");
+contract SkidsProtocol {
+	string public observe;
+	string pubic understand;
+	string private secure; 
 }
 \`\`\`
 
