@@ -33,7 +33,7 @@ Though we cultivate a light hearted environment, it is a meritocracy nonetheless
 
 As always, we welcome all but only the 1337 have our respect. We’ll be waiting until you’re ready, anon. 
 
-### Secure Smart contratcs
+### Secure Smart contracts
 
 Attention to detail.
 
@@ -42,7 +42,7 @@ pragma solidity 0.8.15;
 
 contract SkidsProtocol {
 	string public observe;
-	string pubic understand;
+	string public understand;
 	string private secure; 
 }
 \`\`\`
