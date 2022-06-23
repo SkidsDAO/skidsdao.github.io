@@ -19,7 +19,7 @@ export default function Home() {
 					<StyledGrid>
 						<StyledSection>
 							<h3 className="section-header">~$ About Us</h3>
-							<p className="body-text">Mauris iaculis tempor erat nec vestibulum. Aenean feugiat vitae ligula consequat consequat. Mauris gravida convallis mauris, sed placerat tortor condimentum ut. Pellentesque ipsum neque, maximus eu diam et, maximus vestibulum odio. Cras dapibus vitae justo eu sollicitudin. Donec id ipsum quis velit venenatis elementum. Fusce nisi felis, dignissim ut finibus sit amet, sollicitudin vel nibh. Vestibulum purus urna, sollicitudin ultricies vestibulum sed, lobortis in odio. </p>
+							<p className="body-text">SkidsDAO is a hacker and cypherpunk collective with the objective of securing and improving the decentralised web. We achieve this through our work and contributions to public goods, inspiring, onboarding and mentoring security engineers and occassionally smart contract security reviews to projects we feel will have a positive effect on the ecosystem.</p>
 							<Link to="/about"><StyledButton className="nav-link">Read More</StyledButton></Link>
 						</StyledSection>
 					</StyledGrid>
