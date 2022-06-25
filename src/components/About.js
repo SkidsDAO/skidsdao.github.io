@@ -13,7 +13,6 @@ export default function About() {
 				<StyledBody>
 					<StyledHeader>
 						<StyledH1 className="page-header">About Us</StyledH1>
-						<StyledH2 className="page-subheader">Breaking your things since 2022.</StyledH2>
 					</StyledHeader>
 					<Markdown content={aboutContent}/>
 				</StyledBody>
