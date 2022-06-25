@@ -25,13 +25,15 @@ export default function About() {
 
 const aboutContent = `##### The SkidsDAO Mission
 
-SkidsDAO is a hacker and cypherpunk collective with the objective of securing and improving the decentralised web. We achieve this through our work and contributions to public goods, inspiring, onboarding and mentoring security engineers and occassionally smart contract security reviews to projects we feel will have a positive effect on the ecosystem.
+SkidsDAO is a [hacker](https://en.wikipedia.org/wiki/Security_hacker) and [cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) collective with the objective of securing and improving the decentralised web. Our philosophy involves active contribution to public goods, onboarding and collaborating with security engineers & enthusiasts. We're interested in taking on smart contract security auditing endeavors with projects we believe have a positive impact on the ecosystem whether at present or in the future.
 
 We love to have fun and prefer to keep things light hearted while perpetuating perfection in all that we do. Don’t want to end up stuffy and miserable after all. ;)
 
-Though we cultivate a light hearted environment, it is a meritocracy nonetheless as noted by the progressions systems we have in place. As a result of these efforts, we hope to churn out some of the greatest hackers the blockchain world will ever see.
+Though we cultivate a light hearted environment, our community is a meritocracy nonetheless as noted by the progressions systems we have in place. As a result of these efforts, we hope to churn out only the most 1337 explorers of the cyber realm commanding a high degree of respect alongside their impeccable ethical code.
 
-As always, we welcome all but only the 1337 have our respect. We’ll be waiting until you’re ready, anon. 
+As always, we welcome all but only the 1337 have our respect. This is an open call to you, anon. Join us and be part of the cause. Whether it is a just one remains to be seen...
+
+Viva la revolución!
 
 `;
 
