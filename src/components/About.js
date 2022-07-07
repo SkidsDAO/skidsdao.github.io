@@ -30,7 +30,7 @@ We love to have fun and prefer to keep things light hearted while perpetuating p
 
 Though we cultivate a light hearted environment, our community is a meritocracy nonetheless as noted by the progressions systems we have in place. As a result of these efforts, we hope to churn out only the most 1337 explorers of the cyber realm commanding a high degree of respect alongside their impeccable ethical code.
 
-As always, we welcome all but only the 1337 have our respect. This is an open call to you, anon. Join us and be part of the cause. Whether it is a just one remains to be seen...
+As always, we welcome all but only the 1337 have our respect. This is an open call to you, anon. [Join us](https://discord.gg/RzVHVMRnRb) and be part of the cause. Whether it is a just one remains to be seen...
 
 Viva la revolución!
 
