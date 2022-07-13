@@ -70,41 +70,6 @@ code {
 	src: url(../public/assets/fonts/Inconsolata/Inconsolata-Bold.ttf);
 }
 
-
-/* font colors  */
-
-.font-void {
-	color: rgb(0,0,0);
-}
-
-.font-black {
-	color: rgb(209,201,210);
-}
-
-.font-pink {
-	color: rgb(215,61,206);
-}
-
-.font-purple {
-	color: rgb(121,79,172);
-}
-
-.font-violet {
-	color: rgb(87,59,133);
-}
-
-.font-blue {
-	color: rgb(55,205,225);
-}
-
-.font-white {
-	color: rgb(209,201,210);
-}
-
-.font-grey {
-	color: rgb(209,201,210);
-}
-
 /* font sizes */
 
 .page-header {
@@ -128,8 +93,12 @@ code {
 	font-size: 0.5em;
 }
 
-.nav-link, .footer-link {
+.nav-link {
 	font-size: 1.3em;
+}
+
+.footer-link {
+	font-size: 1.8em;
 }
 
 @media (max-width: 768px) {

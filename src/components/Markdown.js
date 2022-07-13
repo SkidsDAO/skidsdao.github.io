@@ -55,10 +55,10 @@ const StyledMarkdownWrapper = styled.main`
 
   p {
     margin: 2vh 0 5vh 0;
-    font-family: Inconsolata Regular;
+		font-family: Inconsolata Regular;
 		color: ${WHITE};
-		font-size: 1.2em;
-		line-height: 1.3em;
+		font-size: 24px;
+		line-height: 28px;
   }
 
   blockquote {
