@@ -26,8 +26,8 @@ export default function Blog() {
 						content.map((c, idx) => <p key={idx}><a className="blog-article-link nav-link" href={`/blog/${idx}/${c.uri}`}>{c.title}</a></p>)
 					}
 				</Section>
-				<Footer />
 			</Body>
+			<Footer />
 		</StyledDiv>
 	);
 }

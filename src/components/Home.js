@@ -22,8 +22,8 @@ export default function Home() {
 					<Markdown content={aboutUsSectionContent} />
 					<Button text="Read More" url="/about" />
 				</Section>
-				<Footer />
 			</Body>
+			<Footer />
 		</div>
 	);
 }
