@@ -20,7 +20,15 @@ export default function Navbar() {
 	return (
 		<StyledNav>
 			<StyledVisibleNav>
-				<StyledLogo to="/"><span>Skids</span>DAO</StyledLogo>
+				<StyledLeft>
+					<StyledLogo to="/"><span>Skids</span>DAO</StyledLogo>
+					<a className="nav-social-btn" href="https://twitter.com/SkidsDAO" target="_blank" rel="noreferrer noopener">
+						<img src="assets/icons/twitter.svg" alt="Twitter Logo"/>
+					</a>
+					<a className="nav-social-btn" href="https://discord.com/invite/NHNRUKMCz2" target="_blank" rel="noreferrer noopener">
+						<img src="assets/icons/discord.svg" alt="Discord Logo"/>
+					</a>
+				</StyledLeft>
 				<span className="material-icons nav-link" onClick={toggle}>menu</span>
 			</StyledVisibleNav>
 			<StyledHiddenNav height={height}>
@@ -31,6 +39,24 @@ export default function Navbar() {
 		</StyledNav>
 	);
 }
+
+const StyledLeft = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.nav-social-btn {
+		margin-left: 1vw;
+		img {
+			height: 25px;
+			transition: transform 0.1s ease-in-out;
+
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+`;
 
 const StyledNav = styled.nav`
 	display: flex;
@@ -62,7 +88,6 @@ const StyledVisibleNav = styled.div`
 
 		&:hover {
 			color: ${WHITE};
-			cursor: pointer;
 		}
 	}
 `;

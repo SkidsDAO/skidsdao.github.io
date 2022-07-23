@@ -6,7 +6,6 @@ import { WHITE } from '../colors';
  */
 const DEFAULT_COLUMNS = 1;
 export default function Section({ children, columns }) {
-	console.log('col', columns);
 	return (
 		<StyledSection className="body-text" cols={ columns ? columns : DEFAULT_COLUMNS }>	
 			{ children }

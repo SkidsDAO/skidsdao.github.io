@@ -36,11 +36,6 @@ const StyledBody = styled.div`
 	}
 `;
 
-const StyledGrid = styled.div`
-	display: grid;
-	grid-template-columns: 1fr;
-`;
-
 const StyledHeader = styled.header`
 	margin: 15vh 0;
 `;
@@ -55,42 +50,3 @@ const StyledH2 = styled.h2`
 	font-family: Inconsolata Regular;
 	color: ${WHITE};
 `;
-
-const StyledButton = styled.button`
-	margin: 1em 0;
-	padding: 0.5em;
-	border: 2px solid ${VIOLET};
-	font-family: Inconsolata Regular;
-	color: ${VIOLET};
-	text-decoration: none;
-	background: none;
-	transition: color background-color;
-	transition-duration: 0.1s, 0.1s;
-	transition-timing-fucntion: ease-out;
-
-	&:hover {
-		color: ${VOID};
-		background-color: ${WHITE};
-		border: 2px solid ${WHITE};
-		cursor: pointer;
-	}
-`;
-
-const StyledSection = styled.section`
-	h3 {
-		color: ${VIOLET};
-		word-wrap: break-word;
-		font-family: Inconsolata Bold;
-	}
-
-	p {
-		color: ${GREYVIOLET};
-		font-family: Inconsolata Regular;
-	}
-
-	b {
-		color: ${VIOLET};
-		font-family: Inconsolata Bold;
-	}
-`;
-

@@ -34,7 +34,6 @@ const StyledButton = styled.button`
 		color: ${VOID};
 		background-color: ${WHITE};
 		border: 2px solid ${WHITE};
-		cursor: pointer;
 	}
 `;
 
