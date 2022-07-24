@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import SectionHeader from './SectionHeader';
-import Markdown from './Markdown';
+import RgbText from './RgbText';
 
 import { VIOLET, PURPLE, VOID, BLUE, PINK, WHITE } from '../colors';
 
@@ -10,9 +10,11 @@ const DEFAULT_FOOTER_LINK_TEXT = "Default Footer Link";
 const DEFAULT_FOOTER_URL = "/";
 function FooterLink({ text, url }) {
 	return (
-		<StyledFooterLink className="footer-link" to={url ? url : DEFAULT_FOOTER_URL}>
-			{ text ? text : DEFAULT_FOOTER_LINK_TEXT }
-		</StyledFooterLink>
+		<RgbText>
+			<StyledFooterLink className="footer-link" to={url ? url : DEFAULT_FOOTER_URL}>
+				{ text ? text : DEFAULT_FOOTER_LINK_TEXT }
+			</StyledFooterLink>
+		</RgbText>
 	);
 }
 
@@ -29,19 +31,21 @@ const StyledFooterLink = styled(Link)`
 
 export default function Footer() {
 	return (
-		<StyledFooter>
-			<StyledGrid>
-				<aside id="left">
-					<SectionHeader text="SkidsDAO" />
-				</aside>
-				<aside id="right">
-					<FooterLink text="Home" url="/" />
-					<FooterLink text="About" url="/about" />
-					<FooterLink text="Blog" url="/blog" />
-				</aside>
-			</StyledGrid>
-      <StyledCopyright className="body-text">&copy; <StyledLink to="/">SkidsDAO</StyledLink>. All Rights Reserved</StyledCopyright>
-		</StyledFooter>
+		<RgbText>
+			<StyledFooter>
+				<StyledGrid>
+					<aside id="left">
+						<SectionHeader text="SkidsDAO" />
+					</aside>
+					<aside id="right">
+						<FooterLink text="Home" url="/" />
+						<FooterLink text="About" url="/about" />
+						<FooterLink text="Blog" url="/blog" />
+					</aside>
+				</StyledGrid>
+				<StyledCopyright className="body-text">&copy; <StyledLink to="/">SkidsDAO</StyledLink>. All Rights Reserved</StyledCopyright>
+			</StyledFooter>
+		</RgbText>
 	);
 }
 

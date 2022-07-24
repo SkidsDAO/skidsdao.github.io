@@ -1,6 +1,7 @@
 import { VOID, VIOLET, WHITE } from '../colors';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import RgbText from './RgbText';
 
 /*
  * @desc Skids-styled reusable and hover-responsive button
@@ -12,7 +13,7 @@ export default function Button({ text, url }) {
 	return (
 		<Link to={url ? url : DEFAULT_URL}>
 			<StyledButton className="nav-link">
-				{ text ? text : DEFAULT_BUTTON_TEXT }
+				<RgbText>{ text ? text : DEFAULT_BUTTON_TEXT }</RgbText>
 			</StyledButton>
 		</Link>
 	);

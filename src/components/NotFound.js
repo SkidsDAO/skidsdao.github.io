@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Markdown from './Markdown';
 
 import { VIOLET, GREYVIOLET, VOID, WHITE } from '../colors';
+import RgbText from './RgbText';
 
 export default function NotFound() {
 	return (
 		<div>
 			<Navbar />
+			<RgbText />
 			<StyledMain className="font-white">
 				<StyledBody>
 					<StyledHeader>

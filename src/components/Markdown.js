@@ -17,6 +17,10 @@ export default function Markdown({ content }) {
 // Markdown styling over here
 // Change as needed
 const StyledMarkdownWrapper = styled.main`
+	& > * {
+		animation: rgbText 2s steps(9) 0s infinite alternate;
+	}
+
   img {
     overflow: hidden;
     max-height: 800px;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { VOID, VIOLET, WHITE } from '../colors';
+import RgbText from './RgbText';
 
 const openHeightInPx = 100;
 
@@ -18,25 +19,28 @@ export default function Navbar() {
 	};
 
 	return (
-		<StyledNav>
-			<StyledVisibleNav>
-				<StyledLeft>
-					<StyledLogo to="/"><span>Skids</span>DAO</StyledLogo>
-					<a className="nav-social-btn" href="https://twitter.com/SkidsDAO" target="_blank" rel="noreferrer noopener">
-						<img src="assets/icons/twitter.svg" alt="Twitter Logo"/>
-					</a>
-					<a className="nav-social-btn" href="https://discord.com/invite/NHNRUKMCz2" target="_blank" rel="noreferrer noopener">
-						<img src="assets/icons/discord.svg" alt="Discord Logo"/>
-					</a>
-				</StyledLeft>
-				<span className="material-icons nav-link" onClick={toggle}>menu</span>
-			</StyledVisibleNav>
-			<StyledHiddenNav height={height}>
-				<StyledLink className="nav-link" to="/">Home</StyledLink>
-				<StyledLink className="nav-link" to="/about">About</StyledLink>
-				<StyledLink className="nav-link" to="/blog">Blog</StyledLink>
-			</StyledHiddenNav>
-		</StyledNav>
+		<RgbText>
+			<StyledNav>
+				<StyledVisibleNav>
+					<StyledLeft>
+							<StyledLogo to="/"><span>Skids</span>DAO</StyledLogo>
+
+						<a className="nav-social-btn" href="https://twitter.com/SkidsDAO" target="_blank" rel="noreferrer noopener">
+							<img src="assets/icons/twitter.svg" alt="Twitter Logo"/>
+						</a>
+						<a className="nav-social-btn" href="https://discord.com/invite/NHNRUKMCz2" target="_blank" rel="noreferrer noopener">
+							<img src="assets/icons/discord.svg" alt="Discord Logo"/>
+						</a>
+					</StyledLeft>
+					<span className="material-icons nav-link" onClick={toggle}>menu</span>
+				</StyledVisibleNav>
+				<StyledHiddenNav height={height}>
+					<StyledLink className="nav-link" to="/">Home</StyledLink>
+					<StyledLink className="nav-link" to="/about">About</StyledLink>
+					<StyledLink className="nav-link" to="/blog">Blog</StyledLink>
+				</StyledHiddenNav>
+			</StyledNav>
+		</RgbText>
 	);
 }
 
@@ -46,7 +50,7 @@ const StyledLeft = styled.div`
 	align-items: center;
 
 	.nav-social-btn {
-		margin-left: 1vw;
+		margin-left: 10px;
 		img {
 			height: 25px;
 			transition: transform 0.1s ease-in-out;
@@ -87,6 +91,7 @@ const StyledVisibleNav = styled.div`
 		transition-timing-fucntion: ease-out;
 
 		&:hover {
+			cursor: pointer;
 			color: ${WHITE};
 		}
 	}
@@ -107,12 +112,12 @@ const StyledHiddenNav = styled.div`
 `;
 
 const StyledLogo = styled(Link)`
-	font-family: Inconsolata Black;
+	font-family: 'Press Start 2P', cursive;
 	margin: 2vh 0;
 	color: ${VIOLET};
 	text-decoration: none;
 	box-sizing: border-box;
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bold;
 	
 	span {

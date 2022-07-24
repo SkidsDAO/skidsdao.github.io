@@ -6,11 +6,14 @@ import Footer from './Footer';
 import Markdown from './Markdown';
 import { content } from '../modules/content';
 
+import RgbText from './RgbText';
+
 import { VIOLET, GREYVIOLET, VOID, WHITE } from '../colors';
 
 export default function Article() {
 	const { id } = useParams();
 	return (
+		<RgbText>
 		<div>
 			<Navbar />
 			<StyledMain className="font-white">
@@ -24,6 +27,7 @@ export default function Article() {
 			</StyledMain>
 			<Footer />
 		</div>
+		</RgbText>
 	);
 }
 

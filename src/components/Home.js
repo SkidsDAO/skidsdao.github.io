@@ -6,6 +6,7 @@ import Header from './Header';
 import SectionHeader from './SectionHeader';
 import Body from './Body';
 import Markdown from './Markdown';
+import RgbText from './RgbText';
 
 export default function Home() {
 	return (
@@ -16,7 +17,9 @@ export default function Home() {
 					text="SkidsDAO"
 					subtext="Breaking your things since 2022."
 				/>
-				<SectionHeader text="About Us" />
+				<RgbText text="hotdog">
+					<SectionHeader text="About Us" />
+				</RgbText>
 				<Section columns={1}>
 					<Markdown content={aboutUsSectionContent} />
 					<Button text="Read More" url="/about" />
