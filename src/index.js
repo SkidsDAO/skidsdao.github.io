@@ -10,13 +10,11 @@ import MarkdownPreview from './components/MarkdownPreview';
 import Blog from './components/Blog';
 import Article from './components/Article';
 import NotFound from './components/NotFound';
-import ScanLines from './components/ScanLines';
 import { GlobalStyle } from './constants';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-		<ScanLines />
 		<GlobalStyle />
 		<BrowserRouter>
 			<Routes>

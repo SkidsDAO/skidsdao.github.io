@@ -16,5 +16,5 @@ export default function RgbText({ children }) {
 }
 
 const StyledText = styled.span`
-	animation: rgbText 2s steps(9) 0s infinite alternate;
+	// animation: rgbText 2s steps(9) 0s infinite alternate;
 `;

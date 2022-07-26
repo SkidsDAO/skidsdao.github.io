@@ -4,7 +4,7 @@ import { VOID } from './colors';
 export const GlobalStyle = createGlobalStyle`
 	body {
 		background-color: ${VOID};
-		animation: noise 1s infinite alternate;
+		// animation: noise 1s infinite alternate;
 		// background-image: url("assets/images/glitch-effect-black-background.jpg");
 		// background-image: url("assets/images/noise-background.jpg");
 	}

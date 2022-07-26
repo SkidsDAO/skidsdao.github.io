@@ -18,7 +18,7 @@ export default function Markdown({ content }) {
 // Change as needed
 const StyledMarkdownWrapper = styled.main`
 	& > * {
-		animation: rgbText 2s steps(9) 0s infinite alternate;
+		// animation: rgbText 2s steps(9) 0s infinite alternate;
 	}
 
   img {
