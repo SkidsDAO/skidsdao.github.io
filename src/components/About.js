@@ -12,7 +12,6 @@ export default function About() {
 				<Header text="About Us"></Header>
 				<Markdown content={aboutContent}/>
 			</Body>
-			<Footer />
 		</div>
 	);
 }

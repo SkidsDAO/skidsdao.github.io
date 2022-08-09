@@ -25,7 +25,6 @@ export default function Article() {
 					<Markdown content={content[id].content} />
 				</StyledBody>
 			</StyledMain>
-			<Footer />
 		</div>
 		</RgbText>
 	);

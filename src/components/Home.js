@@ -25,7 +25,6 @@ export default function Home() {
 					<Button text="Read More" url="/about" />
 				</Section>
 			</Body>
-			<Footer />
 		</div>
 	);
 }

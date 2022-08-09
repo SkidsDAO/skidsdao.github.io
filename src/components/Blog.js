@@ -29,7 +29,6 @@ export default function Blog() {
 						}
 					</Section>
 				</Body>
-				<Footer />
 			</StyledDiv>
 		</RgbText>
 	);
