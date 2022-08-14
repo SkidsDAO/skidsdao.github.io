@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import Footer from './Footer';
 import Button from './Button';
 import Section from './Section';
 import Header from './Header';

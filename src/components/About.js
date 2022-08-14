@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import Footer from './Footer';
 import Markdown from './Markdown';
 import Header from './Header';
 import Body from './Body';
